@@ -1,0 +1,18 @@
+# Terraform local files
+.terraform*
+terraform*
+*.tfstate
+*.tfstate.*
+*.tfplan
+cloud.tf
+
+# OS files
+Icon*
+.DS_Store
+.env*
+
+*.log
+conf/*
+!conf/example.tfvars
+
+*-TODO
